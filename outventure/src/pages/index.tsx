@@ -10,6 +10,7 @@ const Home: NextPage = () => {
 
   return (
     <>
+    
       <Head>
         <title>OutVenture</title>
         <meta name="description" content="OutVenture Website" />
@@ -20,7 +21,7 @@ const Home: NextPage = () => {
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
             Out<span className="text-[#3a7544]">Ven</span>ture
           </h1>
-          <p className="text-2xl text-left text-white"> Follow your inner outventurer </p>
+          <p className="text-2xl text-center text-[#3a7544] font-bold rounded-xl bg-slate-50"> Follow your inner outventurer </p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 md:gap-8">
             <Link
               className="flex max-w-xs flex-col gap-14 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
